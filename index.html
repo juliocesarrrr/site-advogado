@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> site advogado </title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #0d1f50;
+            color: #c9a96e;
+        }
+
+        nav {
+            position: fixed;
+            text-align: center;
+            border-bottom: solid 1px #c9a96e;
+            width: 100%;
+            background: #19388d;
+            padding: 10px 0;
+            top: 0;
+            left: 0;
+        }
+
+        nav a {
+            margin: 0 10px;
+            color: #c9a96e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container-geral {
+            width: 100%;
+            padding: 80px 20px 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        /* NOVO: container das imagens */
+        .imagens {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            flex-wrap: wrap; 
+        }
+
+        .imagens img {
+            width: 100%;
+            max-width: 250px; 
+            height: auto;
+        }
+
+        .portifolio {
+            border-top: solid 1px #c9a96e;
+            margin: 20px auto;
+            text-align: le;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        ul {
+            text-align: left;
+            columns: 2;
+        }
+
+        footer {
+            border-top: solid 1px #c9a96e;
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="sobre_nos.html">Sobre Nós</a>
+    </nav>
+
+    <div class="container-geral">
+
+        <h2> Esta é a Home </h2>
+
+        <p>
+            Texto texto texto texto texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto...
+        </p>
+
+        <!-- IMAGENS LADO A LADO -->
+        <div class="imagens">
+            <img src="justica.png" alt="Símbolo da justiça">
+            <img src="outra_imagem.png" alt="Outra imagem">
+        </div>
+
+        <div class="portifolio">
+            <h2>especializações</h2>
+            <ul>
+                <li>Direito Administrativo</li>
+                <li>Direito Agrário </li>
+                <li>Direito Ambiental</li>
+                <li>Direito Bancário</li>
+                <li>Direito Civil</li>
+                <li>Direito Sindical</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>desenvolvido por</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
