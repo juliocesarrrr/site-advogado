@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    background: #362a2a;
+    color: #c9a96e;
+}
+
+/* HEADER */
+header{
+    background: #362a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 2px solid #c9a96e;
+}
+
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    margin-right: 10px;
+    border: 2px solid #c9a96e;
+    border-radius: 50%;
+}
+
+/* MENU */
+nav a{
+    color: #c9a96e;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    opacity: 0.7;
+}
+
+/* SECTION */
+section{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* TÍTULO */
+h2{
+    font-size: 30px;
+}
+
+/* EQUIPE */
+article{
+    text-align: center;
+}
+
+.advogado{
+    display: inline-block;
+    width: 280px;
+    margin: 25px;
+    padding: 20px;
+    border: 2px solid #c9a96e;
+    border-radius: 10px;
+    background: #362a2a;
+    text-decoration: none;
+    color: #c9a96e;
+    transition: 0.3s;
+}
+
+.advogado:hover{
+    transform: scale(1.05);
+}
+
+/* IMAGENS*/
+.advogado img{
+    width: 220px;
+    height: 220px;
+    border: 2px solid #c9a96e;
+    border-radius: 10px;
+}
+
+/* CONTATO */
+.contato{
+    text-align: center;
+    border-top: 2px solid #c9a96e;
+    padding-top: 20px;
+}
+
+/* FORM */
+form input, form textarea{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c9a96e;
+    border-radius: 5px;
+    background: #362a2a;
+    color: #c9a96e;
+}
+
+form button{
+    padding: 10px 20px;
+    background: #c9a96e;
+    color: #362a2a;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover{
+    opacity: 0.8;
+}
+
+/* PERFIL */
+.perfil{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4b352c;
+    border: 2px solid #c9a96e;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.perfil:target{
+    display: block;
+}
